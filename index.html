@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Kalai Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- 🔷 Navbar -->
+    <nav>
+        <h2>Kalaiarasi</h2>
+        <div>
+            <button onclick="showSection('about')">About</button>
+            <button onclick="showSection('skills')">Skills</button>
+            <button onclick="showSection('projects')">Projects</button>
+            <button onclick="showSection('resume')">Resume</button>
+            <button onclick="showSection('contact')">Contact</button>
+        </div>
+    </nav>
+
+    <!-- 🔷 About -->
+    <section id="about" class="section active">
+        <h1>About Me</h1>
+
+        <p>Hi 👋 I'm <b>Kalai</b>, a passionate and self-motivated frontend developer.</p>
+
+        <p>I enjoy creating beautiful and responsive websites using HTML, CSS, and JavaScript.</p>
+
+        <p>I have built projects like Calculator, Image Gallery, and Typing Time Tracker which helped me improve my coding skills.</p>
+
+        <p>I am currently learning new technologies and looking for opportunities to grow as a developer.</p>
+
+        <p>My goal is to become a professional web developer and build user-friendly applications.</p>
+    </section>
+
+    <!-- 🔷 Skills -->
+    <section id="skills" class="section">
+        <h1>My Skills</h1>
+
+        <div class="skill-box">
+            <h3>Frontend</h3>
+            <p>HTML, CSS, JavaScript</p>
+        </div>
+
+        <div class="skill-box">
+            <h3>Tools</h3>
+            <p>GitHub, VS Code</p>
+        </div>
+
+        <div class="skill-box">
+            <h3>Other Skills</h3>
+            <p>Responsive Design, Problem Solving</p>
+        </div>
+    </section>
+
+    <!-- 🔷 Projects -->
+    <section id="projects" class="section">
+        <h1>My Projects</h1>
+
+        <div class="project-card">
+            <h3>Calculator</h3>
+            <p>Built using HTML, CSS, JavaScript</p>
+        </div>
+
+        <div class="project-card">
+            <h3>Image Gallery</h3>
+            <p>Responsive gallery with grid & hover effects</p>
+        </div>
+
+        <div class="project-card">
+            <h3>Task Time Tracker</h3>
+            <p>Tracks how much time I spend typing a task using start/stop timer.</p>
+        </div>
+    </section>
+
+    <!-- 🔷 Resume -->
+    <section id="resume" class="section">
+        <h1>My Resume</h1>
+
+        <!-- ✅ FIXED DOWNLOAD -->
+        <a href="resume.pdf" download="Kalai_Resume.pdf" class="btn">
+            Download Resume
+        </a>
+
+        <!-- ✅ VIEW -->
+        <br><br>
+
+        <a href="resume.pdf" target="_blank" class="btn">
+            View Resume
+        </a>
+    </section>
+
+    <!-- 🔷 Contact -->
+    <section id="contact" class="section">
+        <h1>Contact</h1>
+        <p>📱 Phone: +91 7339419228</p>
+        <p>📧 Email: kalaiarasi112007@gmail.com</p>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>

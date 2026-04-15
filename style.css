@@ -1,0 +1,114 @@
+body {
+    margin: 0;
+    font-family: Arial;
+}
+
+/* Navbar */
+nav {
+    background: black;
+    color: white;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    margin-left: 10px;
+    padding: 8px 15px;
+    border: none;
+    cursor: pointer;
+    background: white;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: cyan;
+}
+
+/* Sections (Full Screen) */
+body {
+    margin: 0;
+    font-family: Arial;
+    background: black; /* fallback */
+}
+
+/* Sections full height fix */
+.section {
+    display: none;
+    min-height: 100vh;  /* 🔥 இதுதான் முக்கியம் */
+    color: white;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+}
+
+/* active section மட்டும் show */
+.active {
+    display: flex;
+}
+
+/* Show active */
+.active {
+    display: flex;
+}
+
+/* Different backgrounds */
+#about {
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+}
+
+#skills {
+    background: linear-gradient(to right, #43cea2, #185a9d);
+}
+
+#projects {
+    background: linear-gradient(to right, #667eea, #764ba2);
+}
+
+#resume {
+    background: linear-gradient(to right, #f7971e, #ffd200);
+}
+
+#contact {
+    background: linear-gradient(to right, #ff416c, #ff4b2b);
+}
+
+/* Button */
+.btn {
+    padding: 10px 20px;
+    background: black;
+    color: white;
+    text-decoration: none;
+}
+/* Skills box */
+.skill-box {
+    background: rgba(255,255,255,0.2);
+    margin: 15px auto;
+    padding: 15px;
+    width: 250px;
+    border-radius: 10px;
+    backdrop-filter: blur(5px);
+}
+
+/* Project card */
+.project-card {
+    background: white;
+    color: black;
+    margin: 15px auto;
+    padding: 20px;
+    width: 250px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.project-card:hover {
+    transform: scale(1.05);
+}
+#about p {
+    max-width: 600px;
+    margin: 10px auto;
+    line-height: 1.6;
+    font-size: 18px;
+}
